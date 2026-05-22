@@ -1,0 +1,20 @@
+
+Method -> GET, Url -> /user, Time -> 1779453175544
+Method -> GET, Url -> /user/15, Time -> 1779488318746
+Method -> GET, Url -> /user/1, Time -> 1779488335510
+Method -> GET, Url -> /user/10, Time -> 1779488345943
+Method -> GET, Url -> /api/user, Time -> 1779488439626
+Method -> GET, Url -> /api/users, Time -> 1779488444093
+Method -> GET, Url -> /favicon.ico, Time -> 1779488445168
+Method -> GET, Url -> /api/users/10, Time -> 1779488453344
+Method -> GET, Url -> /api/users, Time -> 1779488886920
+Method -> GET, Url -> /api/users, Time -> 1779488929408
+Method -> GET, Url -> /api/users, Time -> 1779488954669
+Method -> POST, Url -> /api/auth/login, Time -> 1779489041972
+Method -> GET, Url -> /api/users/100, Time -> 1779489116390
+Method -> GET, Url -> /api/users, Time -> 1779489168225
+Method -> GET, Url -> /api/users, Time -> 1779489180319
+Method -> GET, Url -> /api/users, Time -> 1779489188452
+Method -> GET, Url -> /api/users, Time -> 1779489331350
+Method -> GET, Url -> /api/users, Time -> 1779489349379
+Method -> GET, Url -> /api/users, Time -> 1779489358321

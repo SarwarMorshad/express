@@ -1,6 +1,7 @@
-import { Router, type Request, type Response } from "express";
+import { Router, type NextFunction, type Request, type Response } from "express";
 import { pool } from "../../db";
 import { userController } from "./user.controller";
+import auth from "../../middleware/auth";
 
 const router = Router();
 
@@ -8,7 +9,7 @@ const router = Router();
 router.post("/", userController.createUser);
 
 // Get all users
-router.get("/", userController.getAllUsers);
+router.get("/", auth(), userController.getAllUsers);
 
 // Get user by id
 router.get("/:id", userController.getSingleUserById);
